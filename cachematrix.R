@@ -3,6 +3,7 @@
 ##This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
 
+<<<<<<< HEAD
 
 	inverse<-NULL
 
@@ -34,6 +35,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
+=======
+>>>>>>> parent of d280b2b... Revert "Revert "inverseMAtrix""
 }
 
 
@@ -41,6 +44,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
+<<<<<<< HEAD
 
 
 		inv<-x$getInverse()
@@ -65,3 +69,6 @@ cacheSolve <- function(x, ...) {
 
 		inv
 }
+=======
+}
+>>>>>>> parent of d280b2b... Revert "Revert "inverseMAtrix""
